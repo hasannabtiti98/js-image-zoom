@@ -1,6 +1,7 @@
 # js-image-zoom
 
 
+## i updated this repo and fixed issues
 ## Overview
 
 Pure JavaScript utility for desktop browsers for image zoom on mouse hover. No external dependencies required.

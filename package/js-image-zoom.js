@@ -68,21 +68,14 @@
             return {left: 0, top: 0};
         }
 
-        function leftLimit(min) {
-            return options.width - min;
-        }
-
-        function topLimit(min) {
-            return options.height - min;
-        }
-
         function getValue(val, min, max) {
             if (val < min) {
                 return min;
             }
             if (val > max) {
                 return max;
-            }
+            }data.zoomPosition = options.zoomPosition || 'right';
+        data.zoomContainer = (options.zoomContainer) ? options.zoomContainer : container;
             return val;
         }
 
